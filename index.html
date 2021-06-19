@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and  (max-width: 700px)" href="phone.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <title>Password|Checker</title>
+</head>
+<body>
+    <div class="main">
+      <h1> Password Strength Checker </h1>
+        <div class="form">
+          <div class="form-element">
+            <input type="password" id="password-area">
+            <div class="toggle">
+              <i class="fa fa-eye"></i>
+              <i class="fa fa-eye-slash"></i>
+            </div>
+            <div class="password-policies">
+              <div class="policy-length">
+               length more than 8
+              </div>
+              <div class="policy-number">
+                Contains Numberical Characters
+              </div>
+              <div class="policy-uppercase">
+                Contains Uppercase Characters
+              </div>
+              <div class="policy-special">
+                Contains Special Characters
+              </div>
+              <div class="policy-maxlength">
+                  length less than 30
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+ <script src="index.js"></script>
+</body>
+</html>
